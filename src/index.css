@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Pirata One', cursive, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F3DEBA;
+}
+
+
+.navbar{
+  display: flex;
+  padding: 1% 10%;
+  background-color: #9c8574;
+  color: white;
+  box-shadow: 1px 5px 20px #9c8574;
+}
+
+.title{
+  font-size: 4.5em;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Pirata One', cursive;
+}
+
+.score {
+  margin: auto 0 auto 50%;
+  font-size: xx-large;
+}
+
+.card{
+  height: 210px;
+  width: 150px;
+  background-color: #9c8574;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5% 1%;
+  box-shadow: 1px 5px 5px black;
+  color: white;
+  position: relative;
+}
+
+.card:hover{
+  /* increase size by X1.06 times */
+  transform: scale(1.1); 
+
+  /* makes transition of transform smooth */
+  transition: transform 0.1s;
+}
+
+.card-container{
+  display: flex;
+  padding: 5% 2%;
+  gap: 5%;
+  flex-wrap: wrap;
+  background-color: #f4f4f4;
+  margin: 0 8%;
+}
+
+.card-name{
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 2em;
+  background-color: black;
+  opacity: 60%;
+}
+
+.image{
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  border-radius: 5%;
+}
